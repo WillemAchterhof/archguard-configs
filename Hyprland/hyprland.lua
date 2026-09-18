@@ -42,7 +42,7 @@ hl.bind(
 
 -- Set programs that you use
 local terminal = "alacritty"
-local fileManager = "yazi"
+local fileManager = "dolphin"
 local menu        = "hyprlauncher"
 
 
