@@ -21,4 +21,4 @@ alias cmus='cd ~/Music/'
 alias cpic='cd ~/Pictures/'
 alias cvid='cd ~/Videos/'
 
-alias ag-tools='~/Tools/archguard-toolkit.sh'
+alias tools-ag='~/Tools/archguard-toolkit.sh'
