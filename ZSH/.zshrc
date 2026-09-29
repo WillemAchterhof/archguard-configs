@@ -1,24 +1,15 @@
-# User binaries
-export PATH="$HOME/.local/bin:$PATH"
-
-# .NET global tools
-export PATH="$HOME/.dotnet/tools:$PATH"
-
-# Aliases
-alias install='sudo pacman -Syu'
+alias install='sudo pacman -S'
+alias update='sudo pacman -Syu'
 alias remove='sudo pacman -Rsu'
 
-alias doc='~/Documents/'
-alias dow='~/Downloads/'
-alias mus='~/Music/'
-alias pic='~/Pictures/'
-alias vid='~/Videos/'
+alias cl='clear'
+alias ls='ls --color=auto --group-directories-first'
+alias lls='ls -l --color=auto --group-directories-first'
 
 alias ch='cd ~/'
-alias cdoc='cd ~/Documents/'
-alias cdow='cd ~/Downloads/'
-alias cmus='cd ~/Music/'
-alias cpic='cd ~/Pictures/'
-alias cvid='cd ~/Videos/'
+alias cdoc='cd ~/Documents'
+alias cdow='cd ~/Downloads'
+alias cpro='cd ~/Projects'
 
-alias tools-ag='~/.archguard/toolkit/archguard-toolkit.sh'
+
+alias toolkit='~/.archguard/toolkit/archguard-toolkit.sh'
