@@ -28,5 +28,6 @@ alias cdoc='cd ~/Documents'
 alias cdow='cd ~/Downloads'
 alias cpro='cd ~/Projects'
 
+alias zshrc='nvim ~/.zshrc'
 
 alias toolkit='~/.archguard/toolkit/archguard-toolkit.sh'
